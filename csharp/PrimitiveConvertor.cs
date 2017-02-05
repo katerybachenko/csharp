@@ -8,24 +8,25 @@ namespace csharp
 {
     public class PrimitiveConvertor
     {
-        int int1 = 122;
-        float float1 = 3.123456F;
-        char c = (char) 0;
+
+        float float_input_value = 122.123213F;
+        int int_input_value = 120;
+        char char_input_value = (char)122;
 
         public void floatToChar()
         {
-            float1 = c;
-            Console.WriteLine("Input float value is 3.123456F Output char value is {0}", (char)122);
+            char float_output_value = (char)float_input_value;
+            Console.WriteLine("Input float value is " + float_input_value + " Output char value is " + float_output_value);
         }
         public void intToChar()
         {
-            int1 = c;
-            Console.WriteLine("Input int value is 122 Output char value is {0}", (char)122);
+            char int_output_value = (char)int_input_value;
+            Console.WriteLine("Input int value is "+int_input_value+" Output char value is "+ int_output_value);
         }
         public void charToInt()
         {
-            c = (char) int1;
-            Console.WriteLine("Input char value is {0} Output int value is 122", (char)122);
+            int char_output_value = (int) char_input_value;
+            Console.WriteLine("Input char value is "+ char_input_value + " Output int value is "+char_output_value);
         }
     }
 }
