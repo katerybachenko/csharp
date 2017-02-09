@@ -10,6 +10,17 @@ namespace csharp
     {
        static void Main(string[] args) 
         {
+            Menu.CallMenu();
+
+     /*
+            NumbersCheck.WhichIsBigger();
+
+            Triangle.TriangleCheck();
+
+            CircleArea.CalculateBigger();
+
+            CircleRadius.Calculate();
+
             WideningCasting widening = new WideningCasting();
             widening.conversion();
 
@@ -24,6 +35,8 @@ namespace csharp
 
             PrimitiveConvertor primitive2 = new PrimitiveConvertor();
             primitive2.charToInt();
+
+    */
 
             Console.ReadLine();
 
