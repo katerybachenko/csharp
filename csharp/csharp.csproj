@@ -47,18 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CircleArea.cs" />
-    <Compile Include="Menu.cs" />
-    <Compile Include="NarrowingCasting.cs" />
-    <Compile Include="CircleRadius.cs" />
-    <Compile Include="NewFolder1\MathFunkTest.cs" />
-    <Compile Include="NewFolder1\MathFunk.cs" />
-    <Compile Include="PrimitiveConvertor.cs" />
+    <Compile Include="Main\Classwork\Lesson2\NarrowingCasting.cs" />
+    <Compile Include="Main\Classwork\Lesson2\WideningCasting.cs" />
+    <Compile Include="Main\Classwork\Lesson3\MathFunk.cs" />
+    <Compile Include="Main\Classwork\Lesson4\CircleArea.cs" />
+    <Compile Include="Main\Classwork\Lesson4\CircleRadius.cs" />
+    <Compile Include="Main\Classwork\Lesson4\Triangle.cs" />
+    <Compile Include="Main\Homework\Lesson2\PrimitiveConvertor.cs" />
+    <Compile Include="Main\Homework\Lesson4\WhichIsBigger.cs" />
+    <Compile Include="Main\Menu\Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Triangle.cs" />
-    <Compile Include="WhichIsBigger.cs" />
-    <Compile Include="WideningCasting.cs" />
+    <Compile Include="Test\Classwork\MathFunkTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,6 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Test\Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
