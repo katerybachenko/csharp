@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp
+namespace csharp.Main.Menu
 {
     public class Menu
     {
@@ -19,19 +19,19 @@ namespace csharp
 
             if (a == 1)
             {
-                CircleArea.CalculateBigger();
+                Classwork.Lesson4.CircleArea.CalculateBigger();
             }
             else if (a == 2)
             {
-                CircleRadius.Calculate();
+                Classwork.Lesson4.CircleRadius.Calculate();
             }
             else if (a == 3)
             {
-                Triangle.TriangleCheck();
+                Classwork.Lesson4.Triangle.TriangleCheck();
             }
             else if (a == 4)
             {
-                NumbersCheck.WhichIsBigger();
+                Homework.Lesson4.NumbersCheck.WhichIsBigger();
             }
 
             else

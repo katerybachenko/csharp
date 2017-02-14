@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp.NewFolder1
+namespace csharp.Test.Classwork
 {
     [TestFixture]
     class MathFunkTest
@@ -16,7 +16,7 @@ namespace csharp.NewFolder1
             int a = 2;
             int b = 2;
             int expected = 4;
-            MathFunk mathFunk = new MathFunk();
+            Main.Classwork.Lesson3.MathFunk mathFunk = new Main.Classwork.Lesson3.MathFunk();
             Assert.AreEqual(expected, mathFunk.Multiply(a, b));
         }
 
@@ -26,7 +26,7 @@ namespace csharp.NewFolder1
             int a = 2;
             int b = 12;
             int expected = 14;
-            MathFunk mathFunk = new MathFunk();
+            Main.Classwork.Lesson3.MathFunk mathFunk = new Main.Classwork.Lesson3.MathFunk();
             Assert.AreEqual(expected, mathFunk.Adition(a, b));
         }
 
@@ -36,14 +36,14 @@ namespace csharp.NewFolder1
             int a = 2;
             int b = 1;
             int expected = 1;
-            MathFunk mathFunk = new MathFunk();
+            Main.Classwork.Lesson3.MathFunk mathFunk = new Main.Classwork.Lesson3.MathFunk();
             Assert.AreEqual(expected, mathFunk.Substraction(a, b));
         }
 
         [Test]
         public void DivisionTest()
         {
-            MathFunk mathFunk = new MathFunk();
+            Main.Classwork.Lesson3.MathFunk mathFunk = new Main.Classwork.Lesson3.MathFunk();
             Assert.AreEqual(3.3333333333333335d, mathFunk.Division(10, 3));
         }
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp.NewFolder1
+namespace csharp.Main.Classwork.Lesson3
 {
     class MathFunk
     {

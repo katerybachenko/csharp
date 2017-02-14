@@ -10,7 +10,7 @@ namespace csharp
     {
        static void Main(string[] args) 
         {
-            Menu.CallMenu();
+            csharp.Main.Menu.Menu.CallMenu();
 
      /*
             NumbersCheck.WhichIsBigger();

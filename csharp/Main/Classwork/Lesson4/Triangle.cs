@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace csharp
+namespace csharp.Main.Classwork.Lesson4
 {
     public class Triangle
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp
+namespace csharp.Main.Homework.Lesson2
 {
     public class PrimitiveConvertor
     {
